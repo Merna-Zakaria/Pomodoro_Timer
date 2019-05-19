@@ -1,0 +1,48 @@
+body{
+    background: url(../image/christmas-1911637_1920.jpg) , rgba(0,0, 0,.8);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+header p{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 30px;
+    color: coral;
+    margin: 0;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .clock i {
+    padding-right: 15px;
+    font-size: 40px;
+    color: coral;
+ }
+.clock #watch{
+    font-size: 30px;
+    color: white;
+}
+.container , .content , .clock{
+    display: flex;
+    justify-content: center;
+}
+.container p{
+    display: inline-block;
+    border: 2px solid #ff7f50;
+    border-radius: 50%;
+    padding: 200px 150px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 40px;
+}
+.content i {
+    padding-right: 30px;
+    font-size: 50px;
+    color: #ff7f50;
+}
