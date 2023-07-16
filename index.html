@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Pomodoro</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/all.min.css">
-  
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
     <section class="body">
-            <header>
-                    <p>Manage Your Time</p>
-                     <div class="clock">
-                        <i class="far fa-clock"></i>
-                        <p id="watch">00 : 00 : 00</p>
-                     </div>
-            </header>
-       <section class="container">
-                <section>
-                   <p id="stopWatch">00 : 00 : 00</p>
-                    <section class="content">
-                            <i id ="start" class="far fa-play-circle "></i>
-                            <i id ="pause" class="far fa-pause-circle "></i>
-                            <!-- <i id ="break" class="fas fa-coffee "></i> -->
-                            <i id ="end" class="far fa-times-circle "></i>
-                    </section>
-              </section>
-       </section>
+      <header>
+        <p>Manage Your Time</p>
+        <div class="clock">
+          <i class="far fa-clock"></i>
+          <p id="watch">00 : 00 : 00</p>
+        </div>
+      </header>
+      <section class="container">
+        <section>
+          <div class="stopWatchWrapper">
+            <p id="stopWatch">00 : 00 : 00</p>
+          </div>
+          <section class="content">
+            <span class="tootip" data-title="start"
+              ><i id="start" class="far fa-play-circle cursor_pointer"></i
+            ></span>
+            <span class="tootip" data-title="pause"
+              ><i id="pause" class="far fa-pause-circle cursor_pointer"></i
+            ></span>
+            <span class="tootip" data-title="reset"
+              ><i id="reset" class="far fa-times-circle cursor_pointer"></i
+            ></span>
+          </section>
+        </section>
+      </section>
     </section>
-    
+
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
