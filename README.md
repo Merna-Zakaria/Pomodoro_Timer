@@ -1,6 +1,6 @@
 # Pomodoro-project
 ##### Technologies:
-Pure Javascript,
+Vanilla Javascript,
 HTML,
 CSS,
 
